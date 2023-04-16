@@ -58,6 +58,7 @@ header {
 .link:hover {
     color: aliceblue;
     transition: 0.5s;
+    font-size: 22px;
 }
 
 body {

@@ -52,11 +52,11 @@ header {
 }
 
 .link {
-    color: #521885;
+    color: #7823c2;
 }
 
 .link:hover {
-    color: #680707;
+    color: aliceblue;
     transition: 0.5s;
 }
 

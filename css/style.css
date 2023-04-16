@@ -16,10 +16,14 @@
     color: aliceblue;
 }
 
-.logo {
+#logo {
     font-family: "HandWrite";
     font-size: 40px;
     white-space: nowrap;
+}
+
+#logo:hover {
+    cursor: pointer;
 }
 
 header {
@@ -98,21 +102,21 @@ body {
 }
 
 .bt {
-    flex-basis: 20%;
     background-color: #7823c2;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
-}
-
-.bt a {
-    color: #240c3a;
+    border: 0px;
+    font-size: 20px;
+    flex-basis: 13%;
 }
 
 .bt:hover {
     background-color: aliceblue;
+    color: #7823c2;
     transition: 1s;
     font-size: 22px;
+    cursor: pointer;
 }
 
 #introduction {
